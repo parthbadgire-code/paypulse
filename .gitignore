@@ -1,0 +1,46 @@
+# Node / NPM
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Rust & Cargo
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Anchor
+.anchor/
+test-ledger/
+
+# Next.js
+app/.next/
+app/out/
+app/build/
+.vercel
+
+# Environment variables & local secrets
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+id.json
+deploy-keypair.json
+wallets/
+
+# IDE & OS
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+.vscode/
