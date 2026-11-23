@@ -23,7 +23,7 @@ export default function RootLayout({
             {children}
           </main>
           <footer className="border-t border-zinc-900 py-6 text-center text-xs text-zinc-500">
-            PayPulse Protocol • Built on Solana • Capstone Assignment 2
+            PayPulse Protocol • Built on Solana
           </footer>
         </WalletContextProvider>
       </body>
